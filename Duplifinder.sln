@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Duplifinder", "Duplifinder\Duplifinder.csproj", "{B8712390-215A-49D2-A26B-EC282C24C590}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Daramee.Winston.Shared", "Submodules\Winston\Daramee.Winston.Shared\Daramee.Winston.Shared.shproj", "{07D3172F-FF1F-4E6F-AEBE-3E725904B2A7}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Submodules\Winston\Daramee.Winston.Shared\Daramee.Winston.Shared.projitems*{07d3172f-ff1f-4e6f-aebe-3e725904b2a7}*SharedItemsImports = 13
+		Submodules\Winston\Daramee.Winston.Shared\Daramee.Winston.Shared.projitems*{b8712390-215a-49d2-a26b-ec282c24c590}*SharedItemsImports = 5
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8712390-215A-49D2-A26B-EC282C24C590}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8712390-215A-49D2-A26B-EC282C24C590}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8712390-215A-49D2-A26B-EC282C24C590}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8712390-215A-49D2-A26B-EC282C24C590}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {885C838A-B456-4766-90A1-76F3D5E590F5}
+	EndGlobalSection
+EndGlobal

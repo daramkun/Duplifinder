@@ -1,0 +1,3 @@
+[submodule "Submodules/Winston"]
+	path = Submodules/Winston
+	url = git@github.com:daramkun/Winston.git
